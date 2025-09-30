@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center center fixed; /* ganti bg.jpg dengan gambar kamu */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container {
+  background: rgba(255, 255, 255, 0.9); /* putih transparan */
+  backdrop-filter: blur(8px);           /* efek blur kaca */
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+  width: 400px;
+  max-height: 90vh;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.container h1,
+.container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: #0073aa;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: #005f87;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+table th {
+  background: #0073aa;
+  color: white;
+  width: 40%;
+}
